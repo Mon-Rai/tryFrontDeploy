@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Lottery Limits</title>
+    <script src="limitsbyids.js"></script>
+    <link rel="stylesheet" href="limitsbyids.css">
+</head>
+<body>
+
+    <h2>Check Lottery Limits</h2>
+
+    <form id="checkLimitsForm">
+        <label for="numbers">Enter Numbers (comma-separated):</label>
+        <input type="text" id="numbers" name="numbers" required>
+        <button type="button" onclick="checkLimits()">Check Limits</button>
+    </form>
+
+    <div id="result"></div>
+
+</body>
+</html>
